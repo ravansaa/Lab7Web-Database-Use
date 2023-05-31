@@ -9,11 +9,11 @@ This project is an assignment from my class
 
 
 ### Membuat Database
-'''
+```
 CREATE DATABASE lab_ci4;
-'''
+```
 ### Membuat Tabel
-'''
+```
 CREATE TABLE artikel (
  id INT(11) auto_increment,
  judul VARCHAR(200) NOT NULL,
@@ -23,7 +23,7 @@ CREATE TABLE artikel (
  slug VARCHAR(200),
  PRIMARY KEY(id)
 );
-'''
+```
 ### Setting File Database
 Pertama Setting code database di app/Config/Database.php atau kalian bisa juga di file .env
 ![Gambar](img/ss1.png)
@@ -38,7 +38,7 @@ nama index.php.
 ### SQL
 Tambahkan kode di dalam Sql
 ![Gambar](img/ss3.png)
-'''
+```
 INSERT INTO artikel (judul, isi, slug) VALUE
 ('Artikel pertama', 'Lorem Ipsum adalah contoh teks atau dummy dalam 
 industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah 
@@ -49,7 +49,7 @@ menjadi sebuah buku contoh huruf.', 'artikel-pertama'),
 bukanlah teks-teks yang diacak. Ia berakar dari sebuah naskah sastra latin 
 klasik dari era 45 sebelum masehi, hingga bisa dipastikan usianya telah 
 mencapai lebih dari 2000 tahun.', 'artikel-kedua');
-'''
+```
 ### Hasil
 ![Gambar](img/ss4.png)
 ### Membuat Routing untuk artikel detail
