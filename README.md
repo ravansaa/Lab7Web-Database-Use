@@ -61,7 +61,7 @@ mencapai lebih dari 2000 tahun.', 'artikel-kedua');
 ### Hasil
 ![Gambar](img/ss8.png)
 ### Fungsi Form Edit
-![Gambar](img/ss9.png)
+![Gambar](img/s9.png)
 ### Hasil Form Edit
 ![Gambar](img/ss10.png)
 ### Test Button Hapus
